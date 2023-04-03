@@ -40,7 +40,7 @@ export const ItemListContainer = () => {
         <div className="contenedor">
             {
                 Loading
-                    ? <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                    ? <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
                     : <ItemList items={productos} />
             }
         </div>

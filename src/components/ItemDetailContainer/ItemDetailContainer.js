@@ -33,7 +33,7 @@ const ItemDetailContainer = () => {
         <div>
             {
                 Loading
-                    ? <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                    ? <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
                     : <ItemDetail item={item} />
             }
 

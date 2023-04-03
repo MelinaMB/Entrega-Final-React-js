@@ -49,15 +49,15 @@ const LoginScreen = () => {
                                         <h3 className="mb-4">Iniciar Sesion</h3>
                                     </div>
                                     <div className="w-100">
-                                        <p className="social-media d-flex justify-content-end">
-                                            <p>Logearme con: </p>
-                                            <button onClick={googleLogin} classNameName="social-icon d-flex align-items-center justify-content-center"><FcGoogle /></button>
-                                        </p>
+                                        <div className="social-media d-flex justify-content-end">
+                                            <h3>Logearme con: </h3>
+                                            <button onClick={googleLogin} className="social-icon d-flex align-items-center justify-content-center"><FcGoogle /></button>
+                                        </div>
                                     </div>
                                 </div>
                                 <form action="#" className="signin-form" onSubmit={handleSubmit}>
                                     <div className="form-group mb-3">
-                                        <label for="email">Email</label>
+                                        <label htmlFor="email">Email</label>
                                         <input className="form-control" value={values.email}
                                             type={'text'}
                                             onChange={handleImputChange}
@@ -65,7 +65,7 @@ const LoginScreen = () => {
                                             name='email' required />
                                     </div>
                                     <div className="form-group mb-3">
-                                        <label className="label" for="password">Contraseña</label>
+                                        <label className="label" htmlFor="password">Contraseña</label>
                                         <input className="form-control" value={values.password}
                                             type={'password'}
                                             onChange={handleImputChange}
