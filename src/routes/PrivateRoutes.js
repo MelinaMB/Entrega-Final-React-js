@@ -3,7 +3,8 @@ import { ItemListContainer } from '../components/ItemListContainer/ItemListConta
 import ItemDetailContainer from "../components/ItemDetailContainer/ItemDetailContainer";
 import { Cart } from '../components/Cart/Cart'
 import Checkout from '../components/Checkout/Checkout'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route ,Navigate } from 'react-router-dom'
+
 
 const PrivateRoutes = () => {
 
